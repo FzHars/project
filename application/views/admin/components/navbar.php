@@ -4,7 +4,7 @@
         <li class="nav-item">
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
-        
+
     </ul>
 
     <!-- Right navbar links -->
@@ -15,7 +15,8 @@
                 <i class="far fa-user"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                <a href="<?= base_url();?>Login/log_out" class="dropdown-item dropdown-footer">Logout</a>
+                <a href="<?= base_url(); ?>Settings/view_admin" class="dropdown-item dropdown-footer">Informasi <span style="color: #17a2b8;"><?= $this->session->userdata('username'); ?></span></a>
+                <a href="<?= base_url(); ?>Login/log_out" class="dropdown-item dropdown-footer">Logout</a>
             </div>
         </li>
         <li class="nav-item">

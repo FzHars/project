@@ -84,7 +84,7 @@
                                                 <th>Hari Cuti</th>
                                                 <th>Berakhir</th>
                                                 <th>Status Cuti</th>
-                                                <th>Alsan Verifikasi</th>
+                                                <th>Alasan Verifikasi</th>
                                                 <th>Cetak Surat</th>
                                                 <th>Aksi</th>
                                             </tr>

@@ -18,13 +18,9 @@ class Admin extends CI_Controller {
         $this->load->view('super_admin/admin', $data);
         
         }else{
-
             $this->session->set_flashdata('loggin_err','loggin_err');
             redirect('Login/index');
-
-        }
-        
-        
+        }  
     }
 
     public function tambah_admin()
@@ -54,10 +50,7 @@ class Admin extends CI_Controller {
 
         $this->session->set_flashdata('loggin_err','loggin_err');
         redirect('Login/index');
-
-    }
-
-            
+    }  
     }
 
     public function edit_admin()
